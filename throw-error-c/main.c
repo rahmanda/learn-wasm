@@ -1,3 +1,4 @@
+// emcc -g main.c -o index.html
 #include <stdlib.h>
 
 void assert_less(int x, int y) {

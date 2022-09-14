@@ -1,3 +1,4 @@
+// tinygo build -o main.wasm -target wasm ./main.go
 // https://wasmbyexample.dev/examples/reading-and-writing-graphics/reading-and-writing-graphics.go.en-us.html
 package main
 
