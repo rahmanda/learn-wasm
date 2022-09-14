@@ -13,3 +13,4 @@
 ## How to Preview Demo
 
 - Run `node ./server.js`
+- Open http://localhost:8000/index.html on your browser
