@@ -3,8 +3,16 @@
 ## Prequisites
 
 - Install [tinygo](https://tinygo.org/getting-started/install/linux/)
+- Install [emscripten](https://emscripten.org/docs/getting_started/index.html)
 
 ## How to Compile
+
+### C/C++
+
+- `cd` to your chosen directory
+- Run `emcc -g main.c -o index.html`. This command will generate `index.wasm`, `index.js` and `index.html` on your current directory.
+
+### Golang
 
 - `cd` to your chosen directory
 - Run `tinygo build -o main.wasm -target wasm ./main.go`. This command will generate `main.wasm` on current directory.
